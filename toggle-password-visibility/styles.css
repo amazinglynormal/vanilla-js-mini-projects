@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 1rem 0;
+}
+
+input {
+  height: 1.5rem;
+  width: 100%;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.eye,
+.eye-off {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
